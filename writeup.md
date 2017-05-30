@@ -28,6 +28,6 @@
 
 [//]: # (Image References)
 [image1]: ./output/warped_threshed.jpg
-[image2]: ./output/autonomous.jpg
+[image2]: ./output/autonomous.png
 [image3]: ./calibration_images/example_rock1.jpg 
 
