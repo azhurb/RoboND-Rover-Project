@@ -15,8 +15,7 @@
 [![Watch the video](./calibration_images/example_rock1.jpg)](./output/test_mapping.mp4)
 
 ### Autonomous Navigation and Mapping
-* I changed the `perception_step()` function within the `perception.py` script with the appropriate image processing functions to create a map and update `Rover()` data (similar to what you did with `process_image()` in the notebook). 
-* I changed the `decision_step()` function within the `decision.py` script with conditional statements that take into consideration the outputs of the `perception_step()` in deciding how to issue throttle, brake and steering commands.   
+* I changed the `perception_step()` function within the `perception.py` script with the appropriate image processing functions to create a map and update `Rover()` data (similar to what you did with `process_image()` in the notebook).    
 * Launched in autonomous mode my rover mapped 60% of the environment with 60% fidelity. And also found three rock samples.
 ![alt text][image2]
 
