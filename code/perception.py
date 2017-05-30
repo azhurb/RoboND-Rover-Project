@@ -107,7 +107,7 @@ def perception_step(Rover):
                       [Rover.img.shape[1]/2 + dst_size, Rover.img.shape[0] - bottom_offset],
                       [Rover.img.shape[1]/2 + dst_size, Rover.img.shape[0] - 2*dst_size - bottom_offset], 
                       [Rover.img.shape[1]/2 - dst_size, Rover.img.shape[0] - 2*dst_size - bottom_offset],
-
+                      ])
     # 2) Apply perspective transform
     warped = perspect_transform(Rover.img, source, destination)
 
