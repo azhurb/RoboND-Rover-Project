@@ -16,7 +16,7 @@
 
 ### Autonomous Navigation and Mapping
 * I changed the `perception_step()` function within the `perception.py` script with the appropriate image processing functions to create a map and update `Rover()` data (similar to what you did with `process_image()` in the notebook).    
-* Launched in autonomous mode my rover mapped 60% of the environment with 60% fidelity. And also found three rock samples.
+* Launched in autonomous mode my rover mapped 62% of the environment with 60% fidelity. And also found four rock samples.
 ![alt text][image2]
 
 ### Problems 
