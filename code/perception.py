@@ -131,7 +131,7 @@ def perception_step(Rover):
 
     # 6) Convert rover-centric pixel values to world coordinates
     scale = 10
-
+    print(Rover.pos)
     xpos = float(Rover.pos[0])
     ypos = float(Rover.pos[1])
     yaw = float(Rover.yaw)
