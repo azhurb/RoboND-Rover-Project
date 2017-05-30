@@ -12,9 +12,7 @@
 ![alt text][image1]
 - Modified the `process_image()` function with the appropriate image processing steps (perspective transform, color threshold etc.) to get from raw images to a map.
 - The output video processed by `moviepy` on the saved dataset with the `process_image()` function:
-<video width="960" height="540" controls>
-  <source src="./output/test_mapping.mp4">
-</video>
+[![Watch the video](./calibration_images/example_rock1.jpg)](./output/test_mapping.mp4)
 
 ### Autonomous Navigation and Mapping
 * I changed the `perception_step()` function within the `perception.py` script with the appropriate image processing functions to create a map and update `Rover()` data (similar to what you did with `process_image()` in the notebook). 
